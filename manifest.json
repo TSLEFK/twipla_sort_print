@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Twipla Sorter",
+  "version": "1.0",
+  "description": "Twiplaの参加者リストをあいうえお順に並び替えます",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twipla.jp/events/printlist/*"],
+      "js": ["sort.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
