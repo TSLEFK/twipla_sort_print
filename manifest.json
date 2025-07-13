@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Twipla Sorter",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Twiplaの参加者リストをあいうえお順に並び替えます",
   "icons": {
     "48": "icon.png"
